@@ -4,8 +4,8 @@
 
 .outer {
   border: 2px solid brown;
-  width: 50%;
-  margin-left: 300px;
+  width: 100%;
+  /* margin-left: 300px; */
   padding: 20px;
 }
 
@@ -51,8 +51,81 @@
   flex-direction: column-reverse;
   justify-content: center;
   border: 2px solid brown;
+  width: 85%;
+  margin-left: 10px;
+  padding: 20px;
+  /* align-self: center; */
+}
+
+.teams {
+  flex-direction: column-reverse;
+  justify-content: center;
+  border: 2px solid brown;
   width: 75%;
+  margin-left: 30px;
+  padding: 20px;
+  /* align-self: center; */
+}
+
+.addMembers {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.btn-addMembers {
+  font-size: 15px;
+  border: 2px solid brown;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.memberInput {
+  /* display: flex; */
+  width: 30%;
+  margin-right: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid brown;
+  background-color: #f0f0f0;
+}
+
+.submitMember {
+  padding: 5px;
+  align-self: center;
+  font-size: 25px;
+  border: 2px solid brown;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+.member-list {
+  flex-direction: column-reverse;
+  justify-content: center;
+  border: 2px solid brown;
+  width: 50%;
   margin-left: 50px;
   padding: 20px;
   /* align-self: center; */
+}
+
+.members {
+  flex-direction: column-reverse;
+  justify-content: center;
+  border: 2px solid brown;
+  width: 50%;
+  margin-left: 30px;
+  padding: 20px;
+  /* align-self: center; */
+}
+
+.addHobbies {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.btn-addHobbies {
+  font-size: 15px;
+  border: 2px solid brown;
+  border-radius: 10px;
+  background-color: #f0f0f0;
 }

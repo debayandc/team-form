@@ -10,6 +10,18 @@ class App extends React.Component {
     addTeams: false
   };
 
+  // componentDidMount() {
+  //   this.setState({
+  //     addTeamClick: true
+  //   });
+  // }
+  componentDidUpdate(prevState) {
+    if (prevState.addTeams !== this.props.addTeams) {
+      this.setState({
+        addTeams: false
+      });
+    }
+  }
   onFirstAddTeam = event => {
     event.preventDefault();
     this.setState({
